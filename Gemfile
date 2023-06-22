@@ -5,7 +5,7 @@ ruby "3.1.2"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Use local checkout of Rails
-gem "rails", github: "rails/rails"
+gem "rails", github: "eileencodes/rails", branch: "fix-parallel-testing-48547"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"

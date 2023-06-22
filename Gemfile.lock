@@ -1,6 +1,7 @@
 GIT
-  remote: https://github.com/rails/rails.git
-  revision: e446ef82c8174a4bd6c98f670912bb395b3091d6
+  remote: https://github.com/eileencodes/rails.git
+  revision: f1e79d3f894ccf74626197f4d25928234b0832fb
+  branch: fix-parallel-testing-48547
   specs:
     actioncable (7.1.0.alpha)
       actionpack (= 7.1.0.alpha)
